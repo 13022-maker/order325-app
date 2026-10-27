@@ -78,6 +78,11 @@
                     <span class="text-indigo-300">總金額：</span>
                     <span id="headerTotalAmount" class="font-bold text-emerald-300 text-base">$0</span>
                 </div>
+                <!-- Breakout Game Link Button in Header -->
+                <a href="neon_breakout_arcade.html" target="_blank" class="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-bold px-3 py-1.5 rounded-lg shadow-md transition flex items-center gap-1.5 text-xs sm:text-sm border border-pink-400/30">
+                    <i class="fa-solid fa-gamepad text-amber-300 text-sm sm:text-base"></i>
+                    <span class="hidden sm:inline">課後娛樂：</span><span>霓虹打磚塊</span>
+                </a>
                 <button onclick="scrollToReport()" class="bg-amber-400 hover:bg-amber-300 text-indigo-950 font-bold px-3 py-1.5 rounded-lg shadow transition flex items-center gap-1.5">
                     <i class="fa-solid fa-file-invoice-dollar"></i> 結算報表
                 </button>
@@ -93,6 +98,26 @@
 
         <!-- LEFT COLUMN: MENU CARDS & ORDER FORM (7 COLS) -->
         <section class="lg:col-span-7 flex flex-col gap-6">
+
+            <!-- LUNCH BREAK ENTERTAINMENT BANNER -->
+            <div class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 rounded-2xl p-4 shadow-md border border-indigo-500/30 text-white flex flex-col sm:flex-row items-center justify-between gap-4 card-shadow">
+                <div class="flex items-center space-x-3.5">
+                    <div class="w-11 h-11 rounded-xl bg-indigo-600/30 border border-indigo-400/40 flex items-center justify-center text-amber-300 text-2xl shadow-inner shrink-0">
+                        <i class="fa-solid fa-gamepad"></i>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-base text-white">午休小休閒：霓虹打磚塊街機</h3>
+                            <span class="text-[10px] bg-pink-500 text-white font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">Arcade Game</span>
+                        </div>
+                        <p class="text-xs text-indigo-200 mt-0.5">登記完訂餐放鬆一下！支援鍵盤 A/D、滑鼠與手機觸控控制。</p>
+                    </div>
+                </div>
+                <a href="neon_breakout_arcade.html" target="_blank" class="w-full sm:w-auto bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-400 hover:to-rose-400 text-white font-bold py-2 px-4 rounded-xl text-xs sm:text-sm shadow-lg transition flex items-center justify-center gap-2 shrink-0 border border-pink-300/30">
+                    <i class="fa-solid fa-play"></i>
+                    <span>開啟遊戲 (新視窗)</span>
+                </a>
+            </div>
 
             <!-- 1. MENU DISPLAY CARD -->
             <div class="bg-white rounded-2xl p-5 shadow-sm border border-slate-200 card-shadow">
